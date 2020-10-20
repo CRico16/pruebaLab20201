@@ -1,0 +1,7 @@
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\bin\Debug\LP2SoftV2.exe.config
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\bin\Debug\LP2SoftV2.exe
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\bin\Debug\LP2SoftV2.pdb
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\obj\Debug\LP2SoftV2.csprojAssemblyReference.cache
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\obj\Debug\LP2SoftV2.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\obj\Debug\LP2SoftV2.exe
+C:\Users\User\Documents\VisualStudio2019\20201019\LP2SoftV2\LP2SoftV2\obj\Debug\LP2SoftV2.pdb
