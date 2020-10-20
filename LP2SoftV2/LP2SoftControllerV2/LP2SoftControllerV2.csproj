@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A6DD1B2-D342-433C-8127-75E60E0EE163}</ProjectGuid>
+    <ProjectGuid>{FFDBC5B1-F6CC-46A0-A062-0EB3A754048C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LP2SoftModelV2</RootNamespace>
-    <AssemblyName>LP2SoftModelV2</AssemblyName>
+    <RootNamespace>LP2SoftControllerV2</RootNamespace>
+    <AssemblyName>LP2SoftControllerV2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,10 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area.cs" />
-    <Compile Include="Empleado.cs" />
-    <Compile Include="Persona.cs" />
+    <Compile Include="LP2SoftConfig\DBManager.cs" />
+    <Compile Include="LP2SoftDAO\AreaDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LP2SoftModelV2\LP2SoftModelV2.csproj">
+      <Project>{3a6dd1b2-d342-433c-8127-75e60e0ee163}</Project>
+      <Name>LP2SoftModelV2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LP2SoftMySQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP2SoftV2", "LP2SoftV2\LP2S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP2SoftModelV2", "LP2SoftModelV2\LP2SoftModelV2.csproj", "{3A6DD1B2-D342-433C-8127-75E60E0EE163}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP2SoftControllerV2", "LP2SoftControllerV2\LP2SoftControllerV2.csproj", "{FFDBC5B1-F6CC-46A0-A062-0EB3A754048C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3A6DD1B2-D342-433C-8127-75E60E0EE163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A6DD1B2-D342-433C-8127-75E60E0EE163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A6DD1B2-D342-433C-8127-75E60E0EE163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDBC5B1-F6CC-46A0-A062-0EB3A754048C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDBC5B1-F6CC-46A0-A062-0EB3A754048C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDBC5B1-F6CC-46A0-A062-0EB3A754048C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDBC5B1-F6CC-46A0-A062-0EB3A754048C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
